@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | Smart Study Hub</title>
+    <link rel="icon" type="image/x-icon" href="../../../assets/favicon.ico">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>tailwind.config = { darkMode: 'class' }</script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.1/flowbite.min.css" rel="stylesheet" />
+</head>
+<body class="bg-gray-50 dark:bg-gray-900 transition-colors flex flex-col min-h-screen">
+
+    <nav class="bg-white dark:bg-gray-800 p-4 shadow flex justify-between items-center">
+    <a href="../../../index.html" class="text-blue-600 font-bold text-xl">Smart Study Hub</a>
+    <div class="space-x-4 flex items-center">
+        <a href="../../../index.html" class="dark:text-white">Home</a>
+        <a href="../about/about.html" class="dark:text-white">About</a>
+        <a href="../contact/contact.html" class="dark:text-white">Contact</a>
+        <a href="../../../account/signin.html" class="text-gray-600 dark:text-gray-300">Sign In</a>
+        <a href="../../../account/signup.html" class="bg-blue-600 text-white px-4 py-2 rounded">Sign Up</a>
+        <button id="theme-toggle" class="p-2 bg-gray-200 dark:bg-gray-700 rounded">🌓</button>
+    </div>
+</nav>
+
+    <main class="flex-grow container mx-auto px-4 py-12">
+        <div class="max-w-2xl mx-auto bg-white dark:bg-gray-800 p-8 rounded-2xl shadow-xl border dark:border-gray-700">
+            <h1 class="text-3xl font-extrabold text-gray-900 dark:text-white mb-6 text-center">Get In Touch</h1>
+            
+            <form action="https://formspree.io/f/xbdzpgzg" method="POST" class="space-y-6">
+                <div class="relative z-0 w-full mb-5 group">
+                    <input type="text" name="name" id="name" class="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer" placeholder=" " required />
+                    <label for="name" class="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Your Name</label>
+                </div>
+                <div class="relative z-0 w-full mb-5 group">
+                    <input type="email" name="email" id="email" class="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 focus:outline-none focus:ring-0 focus:border-blue-600 peer" placeholder=" " required />
+                    <label for="email" class="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-blue-600 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Email address</label>
+                </div>
+                <textarea name="message" rows="4" class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white" placeholder="Write your message here..." required></textarea>
+                
+                <button type="submit" class="text-white bg-blue-600 hover:bg-blue-700 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full px-5 py-2.5 text-center transition shadow-lg">Send Message</button>
+            </form>
+        </div>
+    </main>
+
+    <footer class="bg-gray-900 text-white text-center p-6 mt-10">
+        <p>© 2026 Smart Study Hub - Web Engineering Assignment 02</p>
+    </footer>
+
+    <script type="module" src="../../theme.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.1/flowbite.min.js"></script>
+</body>
+</html>
+<footer class="bg-white rounded-lg shadow m-4 dark:bg-gray-800 border-t dark:border-gray-700 mt-20">
+        </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.1/flowbite.min.js"></script>
+
+    <script type="module" src="../../theme.js"></script>
+
+</body> </html>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sign Up | Smart Study Hub</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>tailwind.config = { darkMode: 'class' }</script>
+</head>
+<body class="bg-gray-100 dark:bg-gray-900 flex flex-col min-h-screen">
+
+    <nav class="bg-white dark:bg-gray-800 p-4 shadow flex justify-between items-center">
+    <a href="../../../index.html" class="text-blue-600 font-bold text-xl">Smart Study Hub</a>
+    <div class="space-x-4 flex items-center">
+        <a href="../../../index.html" class="dark:text-white">Home</a>
+        <a href="../about/about.html" class="dark:text-white">About</a>
+        <a href="../contact/contact.html" class="dark:text-white">Contact</a>
+        <a href="signin.html" class="text-blue-600 font-bold">Sign In</a>
+        <a href="signup.html" class="bg-blue-600 text-white px-4 py-2 rounded">Sign Up</a>
+        <button id="theme-toggle" class="p-2 bg-gray-200 dark:bg-gray-700 rounded">🌓</button>
+    </div>
+</nav>
+
+    <div class="flex-grow flex items-center justify-center px-4 py-10">
+        <div class="w-full max-w-md bg-white dark:bg-gray-800 rounded-xl shadow-2xl p-8 border dark:border-gray-700">
+            <h2 class="text-2xl font-bold text-center text-gray-900 dark:text-white mb-6">Join the Hub</h2>
+            
+            <form class="space-y-4">
+                <input type="text" placeholder="Full Name" class="w-full p-2.5 bg-gray-50 border border-gray-300 rounded-lg dark:bg-gray-700 dark:text-white" required>
+                <input type="email" placeholder="Email Address" class="w-full p-2.5 bg-gray-50 border border-gray-300 rounded-lg dark:bg-gray-700 dark:text-white" required>
+                <input type="password" placeholder="Password (Min. 8 characters)" class="w-full p-2.5 bg-gray-50 border border-gray-300 rounded-lg dark:bg-gray-700 dark:text-white" minlength="8" required>
+                
+                <div class="flex items-center">
+                    <input type="checkbox" id="terms" class="w-4 h-4 rounded border-gray-300 focus:ring-blue-500" required>
+                    <label for="terms" class="ml-2 text-sm text-gray-600 dark:text-gray-400">I agree to the <span class="text-blue-600 underline">Terms & Conditions</span></label>
+                </div>
+
+                <button type="submit" class="w-full bg-blue-600 text-white font-bold py-2.5 rounded-lg hover:bg-blue-700 shadow-lg transition">Create Free Account</button>
+            </form>
+
+            <p class="mt-6 text-center text-sm text-gray-600 dark:text-gray-400">
+                Already member? <a href="signin.html" class="text-blue-600 font-bold hover:underline">Sign In</a>
+            </p>
+        </div>
+    </div>
+
+    <script type="module" src="../../theme.js"></script>
+</body>
+</html>
+<footer class="bg-white rounded-lg shadow m-4 dark:bg-gray-800 border-t dark:border-gray-700 mt-20">
+        </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.1/flowbite.min.js"></script>
+
+    <script type="module" src="../../theme.js"></script>
+
+</body> </html>

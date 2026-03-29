@@ -1,0 +1,112 @@
+<head>
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us | Smart Study Hub</title>
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+        }
+    </script>
+    
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.1/flowbite.min.css" rel="stylesheet" />
+</head>
+</head>
+<div class="max-w-screen-xl mx-auto px-4 py-8 space-y-20">
+
+    <nav class="bg-white border-b border-gray-200 px-4 py-2.5 dark:bg-gray-800 dark:border-gray-700">
+    <div class="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl">
+        <a href="../../../index.html" class="flex items-center">
+            <span class="self-center text-xl font-semibold whitespace-nowrap dark:text-white text-blue-600">Smart Study Hub</span>
+        </a>
+        
+        <div class="flex items-center space-x-6">
+            <ul class="flex space-x-8 font-medium">
+                <li><a href="../../../index.html" class="text-gray-700 dark:text-white hover:text-blue-600">Home</a></li>
+                <li><a href="about.html" class="text-blue-600 dark:text-blue-500 font-bold">About</a></li>
+                <li><a href="../contact/contact.html" class="text-gray-700 dark:text-white hover:text-blue-600">Contact</a></li>
+                <li><a href="../../../account/signin.html" class="text-gray-700 dark:text-white hover:text-blue-600">Sign In</a></li>
+            </ul>
+            
+            <a href="../../../account/signup.html" class="text-white bg-blue-700 hover:bg-blue-800 font-medium rounded-lg text-sm px-4 py-2 dark:bg-blue-600 dark:hover:bg-blue-700">Sign Up</a>
+            
+            <button id="theme-toggle" class="text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 rounded-lg text-sm p-2.5">
+                <span class="dark:hidden">🌙</span>
+                <span class="hidden dark:inline">☀️</span>
+            </button>
+        </div>
+    </div>
+</nav>
+
+    <section class="grid grid-cols-2 gap-8 text-gray-900 sm:grid-cols-4 dark:text-white">
+        <div class="flex flex-col items-center justify-center">
+            <dt class="mb-2 text-3xl font-extrabold">73M+</dt>
+            <dd class="text-gray-500 dark:text-gray-400">Developers</dd>
+        </div>
+        <div class="flex flex-col items-center justify-center">
+            <dt class="mb-2 text-3xl font-extrabold">1B+</dt>
+            <dd class="text-gray-500 dark:text-gray-400">Courses Taken</dd>
+        </div>
+        <div class="flex flex-col items-center justify-center">
+            <dt class="mb-2 text-3xl font-extrabold">4M+</dt>
+            <dd class="text-gray-500 dark:text-gray-400">Organizations</dd>
+        </div>
+        <div class="flex flex-col items-center justify-center">
+            <dt class="mb-2 text-3xl font-extrabold">600k+</dt>
+            <dd class="text-gray-500 dark:text-gray-400">Certificates</dd>
+        </div>
+    </section>
+
+    <section>
+        <h2 class="text-2xl font-bold mb-6 dark:text-white">Our Educational Roadmap</h2>
+        <ol class="relative border-s border-gray-200 dark:border-gray-700">                  
+            <li class="mb-10 ms-4">
+                <div class="absolute w-3 h-3 bg-blue-600 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900"></div>
+                <time class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">February 2026</time>
+                <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Smart Study Hub Beta Launch</h3>
+                <p class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">Released the first interactive JavaScript CRUD modules for BSCS students.</p>
+            </li>
+            <li class="ms-4">
+                <div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+                <time class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">April 2026</time>
+                <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Full Stack Expansion</h3>
+                <p class="text-base font-normal text-gray-500 dark:text-gray-400">Planned integration of Node.js and MongoDB database tutorials.</p>
+            </li>
+        </ol>
+    </section>
+
+    <div id="accordion-flush" data-accordion="collapse" data-active-classes="bg-white dark:bg-gray-900 text-gray-900 dark:text-white" data-inactive-classes="text-gray-500 dark:text-gray-400">
+      <h2 id="accordion-flush-heading-1">
+        <button type="button" class="flex items-center justify-between w-full py-5 font-medium rtl:text-right text-gray-500 border-b border-gray-200 dark:border-gray-700 dark:text-gray-400 gap-3" data-accordion-target="#accordion-flush-body-1" aria-expanded="true" aria-controls="accordion-flush-body-1">
+          <span>What makes Smart Study Hub different?</span>
+          <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6"><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/></svg>
+        </button>
+      </h2>
+      <div id="accordion-flush-body-1" class="hidden" aria-labelledby="accordion-flush-heading-1">
+        <div class="py-5 border-b border-gray-200 dark:border-gray-700">
+          <p class="mb-2 text-gray-500 dark:text-gray-400">We prioritize project-based learning and interactive DOM manipulation over simple static reading.</p>
+        </div>
+      </div>
+    </div>
+
+    <section class="bg-blue-700 rounded-2xl p-8 md:p-12 text-center shadow-xl">
+        <h2 class="text-white text-3xl font-extrabold mb-4">Join our Learning Community</h2>
+        <p class="text-blue-100 text-lg mb-6">Start your BSCS journey with the right tools and a modular mindset.</p>
+        <a href="../account/signup.html" class="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-blue-700 bg-white rounded-lg hover:bg-gray-100 focus:ring-4 focus:ring-blue-300">
+            Get started today
+            <svg class="w-3.5 h-3.5 ms-2 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10"><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/></svg>
+        </a>
+    </section>
+
+</div>
+<footer class="bg-white rounded-lg shadow m-4 dark:bg-gray-800 border-t dark:border-gray-700 mt-20">
+        </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.1/flowbite.min.js"></script>
+
+    <script type="module" src="../../theme.js"></script>
+
+</body> </html>
